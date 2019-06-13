@@ -3,6 +3,8 @@ body {
     max-width: 80%;
     padding: 1em 0;
     background-color: #fcfccc;
+    font-family: "Old Bookman";
+    font-size: 1.2em;
 }
 
 #container {
@@ -16,6 +18,7 @@ header,
 footer {
     grid-column: 1 / span 2;
     border: solid 1px black;
+    border-radius: 3px;
 }
 
 header {
@@ -36,11 +39,18 @@ h3 {
     font-family: "Impact"
 }
 
+h2 {
+    font-family: "Garamond";
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+
 main, 
 aside {
     border: solid 1px black;
     background-color: yellow;
     background-image: linear-gradient(#ffffe8, white);
+    border-radius: 3px;
 }
 
 main {
@@ -79,4 +89,10 @@ a {
 a:hover {
     text-decoration: underline;
     color: red;
+}
+
+article {
+    background-color: #fff;
+    padding: 5px;
+    font-family: Garamond;
 }
