@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 1em 0;
+    background-color: #fcfccc;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 10vw 40vw 10vw;
+    grid-gap: 0.5em;
+}
+
+header,
+footer {
+    grid-column: 1 / span 2;
+    border: solid 1px black;
+}
+
+header {
+    background-color: black;
+    background-image: url(images/bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+h3 { 
+    text-shadow: 1px 1px #9b870c;
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    text-align: center;
+    font-family: "Impact"
+}
+
+main, 
+aside {
+    border: solid 1px black;
+    background-color: yellow;
+    background-image: linear-gradient(#ffffe8, white);
+}
+
+main {
+    padding: 20px;
+}
+
+.images {
+    padding: 23px;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 40px 20px 20px 20px;
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    background-color: white;
+    width: 13%;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
