@@ -10,7 +10,7 @@ body {
 #container {
     display: grid;
     grid-template-columns: 65% 35%;
-    grid-template-rows: 10vw 40vw 10vw;
+    grid-template-rows: 10vw 50vw 10vw;
     grid-gap: 0.5em;
 }
 
